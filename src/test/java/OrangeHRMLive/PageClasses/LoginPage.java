@@ -24,6 +24,9 @@ public class LoginPage extends OrangeHRM_BaseClass{
 	@FindBy(how=How.XPATH, using="//button[@type='submit']")
 	public WebElement submit;
 	
+	@FindBy(how=How.XPATH,using="//p[text()= \"Invalid credentials\"]")
+	public WebElement wrongCreds;
+	
 	
 	
 	
